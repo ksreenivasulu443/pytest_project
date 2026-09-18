@@ -1,0 +1,14 @@
+source:
+  path: "C:\\Users\\Haritha\\PycharmProjects\\pytest_project\\input_files\\customer_bronze.csv"
+  type: "csv"
+
+
+target:
+  path: "C:\\Users\\Haritha\\PycharmProjects\\pytest_project\\input_files\\customer_silver.csv"
+  type: "csv"
+
+
+validation_config:
+  primary_columns: "customer_id"
+  not_null_columns: ["customer_id", "email", "phone"]
+  unique_columns: ["phone"]
