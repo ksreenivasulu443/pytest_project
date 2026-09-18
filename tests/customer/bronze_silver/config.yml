@@ -5,7 +5,7 @@ source:
 
 target:
   path: "C:\\Users\\Haritha\\PycharmProjects\\pytest_project\\input_files\\customer_silver.csv"
-  type: "csv"
+  type: "excel"
 
 
 validation_config:
